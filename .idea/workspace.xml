@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cfe71e9-45f9-451c-b75f-ab96ce2fadba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Defence Deal Intelligence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/deal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/article_scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/csv_storage_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/database_storage_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/deal_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/gnews_fetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/google_sheet_storage_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/keyword_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/llm_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/local_llm_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/multi_query_fetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/news_fetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ollama_llm_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/sheet_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/storage_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_gnews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_llm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/confidence_scorer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/deal_deduplicator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/hybrid_deal_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/json_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/llm_json_cleaner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/value_quantity_normalizer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="39NZdEZq73zIBDSbdPtr5rThKJt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.test_gnews.executor": "Run",
+    "Python.test_llm.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-1f1b7bcced7d-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.29188.22" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cfe71e9-45f9-451c-b75f-ab96ce2fadba" name="Changes" comment="" />
+      <created>1770538574168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770538574168</updated>
+    </task>
+    <servers />
+  </component>
+</project>
