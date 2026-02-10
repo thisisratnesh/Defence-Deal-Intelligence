@@ -52,3 +52,22 @@ Below is a real extracted and normalized defence deal produced by the system:
   "source_url": "https://www.devdiscourse.com/article/headlines/3796021-kongsberg-secures-major-european-defense-contract"
 }
 
+## Technology Stack
+
+- Python 3
+- GNews API (news ingestion)
+- Local LLM (Ollama – Llama 3)
+- NLP filtering and classification
+- SQLite & CSV for structured storage
+- python-dotenv for secure configuration
+
+---
+
+##Future Enhancements
+
+- Automated scheduled execution in cloud environments
+- Advanced duplicate detection using semantic similarity
+- Interactive analytics dashboards
+- Currency conversion normalization
+- Playwright-based article scraping for premium sources
+- Alerting system for high-value defence contracts
