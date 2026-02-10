@@ -1,4 +1,7 @@
 # -------------------- Imports --------------------
+import os
+from dotenv import load_dotenv
+
 from datetime import datetime
 
 from services.gnews_fetcher import GNewsFetcher
@@ -17,7 +20,11 @@ from utils.value_quantity_normalizer import ValueQuantityNormalizer
 from utils.deal_deduplicator import DealDeduplicator
 
 
+# Load variables from .env file
+load_dotenv()
 
+# Read API key securely
+GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
 
 
 
@@ -35,7 +42,6 @@ def main():
     # ---------- STEP 1: Initialize services ----------
 
 
-    GNEWS_API_KEY = "69872e57ea29b49a4a49dbae78677d5e"
 
     news_fetcher = GNewsFetcher(
         api_key=GNEWS_API_KEY
